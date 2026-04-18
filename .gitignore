@@ -1,0 +1,16 @@
+# datasets
+*.csv
+
+# videos
+*.mp4
+
+# models
+*.pkl
+*.model
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/

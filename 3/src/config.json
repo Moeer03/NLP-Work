@@ -1,0 +1,28 @@
+{
+  "text_processing": {
+    "clean_text": true,
+    "use_stemming": true,
+    "use_lemmatization": false,
+    "remove_stopwords": true,
+    "min_token_length": 2
+  },
+  "search": {
+    "default_top_k": 10,
+    "default_search_type": "tfidf"
+  },
+  "index": {
+    "save_index": true,
+    "load_existing": true
+  },
+  "document_processing": {
+    "supported_formats": [
+      ".txt",
+      ".docx",
+      ".pdf"
+    ]
+  },
+  "output": {
+    "display_scores": true,
+    "display_metadata": true
+  }
+}
